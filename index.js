@@ -1,26 +1,26 @@
-function cardValidator (credNumber){
-  if (!credNumber){
-    throw new Error("Não tem nada no parametro");
+function cardValidator (credNum){
+  if (!credNum){
+    throw new Error("Não pode ser vazio");
   }
-  if (typeof credNumber === "string"){
-    throw new Error("Esse tem uma string");
+  if (typeof credNum === "string"){
+    throw new Error("Contém string");
   }
-  if (credNumber.toString().length<10){
-    throw new Error("Quantidade de numeros menor que o esperado");
+  if (credNum.toString().length<10){
+    throw new Error("Digitos menor do que o esperado");
   }
 
-  var array = credNumber.toString().split('').reverse();
+  var numberCard = credNum.toString().split('').reverse();
 
   var totalSum = 0;
 
-  for (var i = 0; i < array.length; i++){
+  for (var i = 0; i < numberCard.length; i++){
     if (i % 2 === 1){
-      var onlyOdd = parseInt(array[i])*2;
-      if (onlyOdd >= 10){
-        totalSum += parseInt(onlyOdd / 10) + (onlyOdd % 10);
+      var quant = parseInt(numberCard[i])*2;
+      if (quant >= 10){
+        totalSum += parseInt(quant / 10) + (quant % 10);
       }
     }else {
-      totalSum += parseInt(array[i]);
+      totalSum += parseInt(numberCard[i]);
     }
   }
 
