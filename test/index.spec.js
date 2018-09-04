@@ -6,21 +6,21 @@ describe('card', function () {
   describe('#cardValidator', function () {
     describe('Quando não houver parametro.', function () {
       it('Deve mostrar um erro.', function () {
-        var badFn = function () { card.cardValidator(); };
+        let badFn = function () { card.cardValidator(); };
         expect(badFn).to.throw(Error);
       });
     });
 
     describe('Quando for uma string.', function () {
       it('Deve mostrar um erro.', function () {
-        var badFn = function () { card.cardValidator('Teste'); };
+        let badFn = function () { card.cardValidator('Teste'); };
         expect(badFn).to.throw(Error);
       });
     });
 
     describe('Quando o numero for inteiro e houver apenas um digito.', function () {
       it('Deve mostrar um erro..', function () {
-        var badFn = function () { card.cardValidator(12345); };
+        let badFn = function () { card.cardValidator(12345); };
         expect(badFn).to.throw(Error);
       });
     });

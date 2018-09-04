@@ -9,13 +9,13 @@ function cardValidator (credNum){
     throw new Error("Digitos menor do que o esperado");
   }
 
-  var numberCard = credNum.toString().split('').reverse();
+  let numberCard = credNum.toString().split('').reverse();
 
-  var totalSum = 0;
+  let totalSum = 0;
 
-  for (var i = 0; i < numberCard.length; i++){
+  for (let i = 0; i < numberCard.length; i++){
     if (i % 2 === 1){
-      var quant = parseInt(numberCard[i])*2;
+      let quant = parseInt(numberCard[i])*2;
       if (quant >= 10){
         totalSum += parseInt(quant / 10) + (quant % 10);
       }
