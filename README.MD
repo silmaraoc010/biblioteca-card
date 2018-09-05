@@ -1,4 +1,4 @@
-# Validador de cartão de crédito v 1.0.2
+# Validador de cartão de crédito v 1.0.3
 
 Esta biblioteca, tem como objetivo, validar um número de cartão de crédito
 
