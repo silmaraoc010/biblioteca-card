@@ -12,7 +12,7 @@ Exemplo:
    > let numberCard = require("biblioteca-card-soc@1.0.2")
    > numberCard.cardValidator(5390830298398279); // true
 
-## Version 1.0.2
+## Version 1.0.3
 
 - Funcionalidades: validar um número de cartão de crédito
 
@@ -30,7 +30,7 @@ Exemplo:
 
 ## Roadmap do projeto
 
-#### Versão 1.0.2 (released)
+#### Versão 1.0.3 (released)
 
 - Funcionalidades: validar um número de cartão de crédito
 
