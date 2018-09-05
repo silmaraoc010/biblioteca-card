@@ -1,6 +1,6 @@
 {
   "name": "biblioteca-card-soc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Biblioteca de validar cartão de crédito !",
   "main": "index.js",
   "directories": {
