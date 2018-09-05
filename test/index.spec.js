@@ -34,7 +34,7 @@ describe('card', function () {
  
     describe('Quando se o cartao for invalido deve retornar false.', function () {
       it('Deve mostrar um erro.', function () {
-        expect(card.cardValidator(5555666677778883)).to.be.false;
+        expect(card.cardValidator(5390830298398279)).to.be.false;
       });
     });
   });

@@ -16,7 +16,7 @@ function cardValidator (credNum){
   for (let i = 0; i < numberCard.length; i++){
     if (i % 2 === 1){
       let quant = parseInt(numberCard[i])*2;
-      if (quant >= 10){
+      if (quant >=10){
         totalSum += parseInt(quant / 10) + (quant % 10);
       }
     }else {
