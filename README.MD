@@ -9,8 +9,8 @@ Esta biblioteca, tem como objetivo, validar um número de cartão de crédito
 Exemplo:
 
    $node
-   > let cardValidator = require("biblioteca-card-soc@1.0.2")
-   > cardValidate.cardValidator(5390830298398279); // true
+   > let numberCard = require("biblioteca-card-soc@1.0.2")
+   > numberCard.cardValidator(5390830298398279); // true
 
 ## Version 1.0.2
 
@@ -35,3 +35,8 @@ Exemplo:
 - Funcionalidades: validar um número de cartão de crédito
 
 - Retorna um booleano, se o número for válido (true) ou inválido (false)
+
+### Versão 2.0.0 (Outubro/2018)
+
+README em Inglês.
+Validação de bandeira.
