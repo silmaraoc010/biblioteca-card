@@ -9,7 +9,7 @@ Esta biblioteca, tem como objetivo, validar um número de cartão de crédito
 Exemplo:
 
    $node
-   > let numberCard = require("biblioteca-card-soc@1.0.2")
+   > let numberCard = require("biblioteca-card-soc@1.0.3")
    > numberCard.cardValidator(5390830298398279); // true
 
 ## Version 1.0.3
@@ -26,7 +26,7 @@ Exemplo:
 
 - Continue a instalação com:
 
-     $npm install biblioteca-card-soc@1.0.2
+     $npm install biblioteca-card-soc@1.0.3
 
 ## Roadmap do projeto
 
